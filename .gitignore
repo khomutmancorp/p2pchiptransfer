@@ -1,0 +1,148 @@
+# Laravel & PHP
+/src/vendor/
+/src/node_modules/
+/src/public/hot
+/src/public/storage
+/src/storage/*.key
+/src/.env
+/src/.env.backup
+/src/.env.production
+/src/.phpunit.result.cache
+/src/Homestead.json
+/src/Homestead.yaml
+/src/auth.json
+/src/npm-debug.log
+/src/yarn-error.log
+/src/.DS_Store
+/src/Thumbs.db
+
+# Laravel specific
+/src/bootstrap/cache/*.php
+/src/storage/framework/cache/data/*
+/src/storage/framework/sessions/*
+/src/storage/framework/testing/*
+/src/storage/framework/views/*
+/src/storage/logs/*
+/src/storage/app/public/*
+/src/storage/debugbar/*
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Database
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env.local
+.env.production
+
+# Build outputs
+/build
+/dist
+
+# Temporary folders
+tmp/
+temp/
+
+# Laravel Mix
+/src/public/css
+/src/public/js
+/src/public/mix-manifest.json
+
+# Laravel Nova (if used)
+/src/nova
+
+# Backup files
+*.bak
+*.backup
+
+# Cache files
+*.cache
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Local development
+.vagrant/
+Vagrantfile.local
+
+# Testing
+/src/coverage/
+/src/.phpunit.cache
+
+# Laravel Telescope (if used)
+/src/storage/telescope
+
+# Laravel Horizon (if used)
+/src/storage/horizon
+
+# Livewire tmp files (if used)
+/src/storage/app/livewire-tmp/
+
+# Application specific
+user-order-api-changes.diff
